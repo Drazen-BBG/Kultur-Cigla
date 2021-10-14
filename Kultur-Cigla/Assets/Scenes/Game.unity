@@ -273,8 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: "Ona je \u017Eena moga \u017Eivota i ja je volim puno puno je volim
-        ovaj tekst je"
+      value: Jason Statham
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -420,8 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 20
-    m_Right: 20
+    m_Left: 100
+    m_Right: 100
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 4
@@ -785,8 +784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: "Ona je \u017Eena moga \u017Eivota i ja je volim puno puno je volim
-        ovaj tekst je"
+      value: Ellen Page / Elliot Page
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -1193,8 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: "Ona je \u017Eena moga \u017Eivota i ja je volim puno puno je volim
-        ovaj tekst je"
+      value: Tom Hanks
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -1397,11 +1394,6 @@ PrefabInstance:
     - target: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Name
       value: Button A
-      objectReference: {fileID: 0}
-    - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
-      propertyPath: m_text
-      value: "Ona je \u017Eena moga \u017Eivota i ja je volim puno puno je volim
-        ovaj tekst je"
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
