@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -29,12 +29,12 @@ public class Quiz : MonoBehaviour
     {
         if (index == question.GetCorrectAnswerIndex())
         {
-            questionText.text = "Correct";
+            questionText.text = "Tačno!";
             answerButtons[index].GetComponentInChildren<Image>().sprite = correcttAnswerSprite;
         }
         else
         {
-            questionText.text = "Sorry, the correct answer is " + question.GetAnswer(question.GetCorrectAnswerIndex());
+            questionText.text = "Žao mi je, tačan odgovor je: \n" + question.GetAnswer(question.GetCorrectAnswerIndex());
             answerButtons[question.GetCorrectAnswerIndex()].GetComponentInChildren<Image>().sprite = correcttAnswerSprite;
         }
     }
