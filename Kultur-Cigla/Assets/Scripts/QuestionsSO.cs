@@ -6,20 +6,15 @@ using UnityEngine;
 public class QuestionsSO : ScriptableObject
 {
     //Question
-    [TextArea(2,6)]
-    [SerializeField] 
-    string question = "Enter new question text here";
+    [TextArea(2,5)] [SerializeField] private string question = "Enter new question text here";
 
     //Answers
-    [SerializeField]
-    string[] answers = new string[4];
-    [SerializeField]
-    int correctAnswerIndex;
+    [SerializeField] private string[] answers = new string[4];
+    [SerializeField] private int correctAnswerIndex;
 
 
     //Question categories 
-    [SerializeField]
-    bool sport, history, geography, music, science;
+    [SerializeField] private bool general, sport, history, geography, music, science;
     
 
 
@@ -34,7 +29,7 @@ public class QuestionsSO : ScriptableObject
         return correctAnswerIndex;
     }
 
-    public string GetCorrectAnswer(int index)
+    public string GetAnswer(int index)
     {
         return answers[index];
     }

@@ -183,7 +183,7 @@ MonoBehaviour:
   m_text: "Jednog \u017Eu\u0107kastog popodneva ispred na\u0161e ku\u0107e neko je
     prosuo \u010Da\u0161u vode jednog \u0111aka prvaka. Njegova majka \u017Dana se
     prezovala \u0106uprija i ona je iz \u0160vedske iz pokrajine \u0110akovica kod
-    \u010Ce\u0161ke."
+    \u010Ce\u0161ke. blabla hujhy se mory"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd79f49c27496644491756af7ddc2992, type: 2}
   m_sharedMaterial: {fileID: -5588677539518054275, guid: cd79f49c27496644491756af7ddc2992, type: 2}
@@ -273,7 +273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: Jason Statham
+      value: Placeholder for an answer for the Button A
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -432,6 +432,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &421574633 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+  m_PrefabInstance: {fileID: 6915306564940338305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &421574634 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
@@ -784,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: Ellen Page / Elliot Page
+      value: Placeholder for an answer for the Button A
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -955,6 +960,7 @@ GameObject:
   - component: {fileID: 1195553565}
   - component: {fileID: 1195553564}
   - component: {fileID: 1195553563}
+  - component: {fileID: 1195553567}
   m_Layer: 5
   m_Name: Quiz Canvas
   m_TagString: Untagged
@@ -1044,6 +1050,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1195553567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195553562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa10bd964029314996c500fbd6b73db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 79728466}
+  question: {fileID: 11400000, guid: e0350d476bfa9d54e90d8242c989ca6c, type: 2}
+  answerButtons:
+  - {fileID: 421574633}
+  - {fileID: 1787353065}
+  - {fileID: 1507501411}
+  - {fileID: 1942806866}
 --- !u!1 &1309042536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1203,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309042536}
   m_CullTransparentMesh: 1
+--- !u!1 &1507501411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+  m_PrefabInstance: {fileID: 1105558760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1713789042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1191,7 +1221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_text
-      value: Tom Hanks
+      value: Placeholder for an answer for the Button A
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
@@ -1283,6 +1313,16 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
   m_PrefabInstance: {fileID: 1713789042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1787353065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+  m_PrefabInstance: {fileID: 1713789042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1942806866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+  m_PrefabInstance: {fileID: 201592003}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2055387396
 GameObject:
@@ -1394,6 +1434,10 @@ PrefabInstance:
     - target: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Name
       value: Button A
+      objectReference: {fileID: 0}
+    - target: {fileID: 4743805942155874298, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+      propertyPath: m_text
+      value: Placeholder for an answer for the Button A
       objectReference: {fileID: 0}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
