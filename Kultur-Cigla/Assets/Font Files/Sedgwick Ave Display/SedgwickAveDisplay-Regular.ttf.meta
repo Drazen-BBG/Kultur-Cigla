@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15ca11e4d64cdd44c8cdc9ef608d1646
+guid: 1e636d3e933625b40817b8a5b5f405e5
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,9 +9,8 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Prisma
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: d4c630bff0db8cf48a37e589124d5223, type: 3}
+  - Sedgwick Ave Display
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

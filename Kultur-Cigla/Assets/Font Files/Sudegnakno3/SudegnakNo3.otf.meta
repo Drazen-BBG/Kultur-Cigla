@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d4c630bff0db8cf48a37e589124d5223
+guid: 092b090662953bb45be98701daa89646
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Prisma
+  - SudegnakNo3
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

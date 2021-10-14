@@ -15,11 +15,11 @@ G:/UnityProjects/GameDecTV Unity 2D/Kultur-Cigla/Kultur-Cigla
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59386
+49940
 Successfully changed project path to: G:/UnityProjects/GameDecTV Unity 2D/Kultur-Cigla/Kultur-Cigla
 G:/UnityProjects/GameDecTV Unity 2D/Kultur-Cigla/Kultur-Cigla
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002921 seconds.
+Registered in 0.002214 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.261 seconds
+- Completed reload, in  1.913 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2262ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (1913ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (602ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002126 seconds.
+Registered in 0.002116 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 71.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
+- Completed reload, in  1.231 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1648ms)
-		BeginReloadAssembly (323ms)
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1242ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1008ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (573ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (344ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.2 MB.
-System memory in use after: 93.3 MB.
+Unloading 2106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2532.
-Total: 3.693100 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.298500 ms  DeleteObjects: 0.104600 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2546.
+Total: 3.156900 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.808700 ms  DeleteObjects: 0.075700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,32 +134,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003606 seconds 
-  Import took 0.146506 seconds .
+  path: Assets/Font Files/New Folder
+  artifactKey: Guid(8bf92c40d26f3aa4cb896158e67d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/New Folder using Guid(8bf92c40d26f3aa4cb896158e67d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914311573adabb55a74e1a13ab22733d') in 0.146778 seconds 
+  Import took 0.185677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.539844 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(5ae1c7245b0359d479aa9b8e297c4633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(5ae1c7245b0359d479aa9b8e297c4633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed71ebdac2d1557ea497ae7d8f6c404e') in 0.002547 seconds 
-  Import took 0.009728 seconds .
+  Time since last request: 16.087089 seconds.
+  path: Assets/Font Files/Aedgwick Ave
+  artifactKey: Guid(8bf92c40d26f3aa4cb896158e67d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/Aedgwick Ave using Guid(8bf92c40d26f3aa4cb896158e67d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3875d2c7bdf753033fdd51d5e13fde0') in 0.001406 seconds 
+  Import took 0.006921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.849529 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(1ba5b4398ba77614ca6dee96b144b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(1ba5b4398ba77614ca6dee96b144b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5551fccc11721f327bc8726b9a33e08') in 0.002182 seconds 
-  Import took 0.023115 seconds .
+  Time since last request: 13.304877 seconds.
+  path: Assets/Font Files/New Folder
+  artifactKey: Guid(3369a10e10940414aab1066088555416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/New Folder using Guid(3369a10e10940414aab1066088555416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fd5ad249b81c7a2a5f259dcac1af4b') in 0.003750 seconds 
+  Import took 0.013893 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.733520 seconds.
-  path: Assets/Sprites/Quiz Master - Gameplay Overview 1.png
-  artifactKey: Guid(e67c8c4a8cb45eb458599964c8d06879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Quiz Master - Gameplay Overview 1.png using Guid(e67c8c4a8cb45eb458599964c8d06879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139df9f91eb6bd6edc1a4b3366d16dff') in 0.166377 seconds 
-  Import took 0.171528 seconds .
+  Time since last request: 16.296306 seconds.
+  path: Assets/Font Files/Sedgwick Ave Display
+  artifactKey: Guid(3369a10e10940414aab1066088555416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/Sedgwick Ave Display using Guid(3369a10e10940414aab1066088555416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b1f7802da2f2fa7dc029d62043acf9') in 0.001374 seconds 
+  Import took 0.007983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.763363 seconds.
+  path: Assets/Font Files/Sudegnakno3
+  artifactKey: Guid(6b3bcc2491917534486db1f3fdfd85bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/Sudegnakno3 using Guid(6b3bcc2491917534486db1f3fdfd85bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cce26707331460ccb7685e272c152f') in 0.002456 seconds 
+  Import took 0.007667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.282225 seconds.
+  path: Assets/Font Files/Documents
+  artifactKey: Guid(2597d93613cffb9499a032a4284839be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/Documents using Guid(2597d93613cffb9499a032a4284839be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20691a2d50d27a536de717889c0e5c21') in 0.001680 seconds 
+  Import took 0.107169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.190506 seconds.
+  path: Assets/Font Files/Documents/Unicode Range HEX Bosnian.txt
+  artifactKey: Guid(574382f72491cd2478abbe29710e5b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font Files/Documents/Unicode Range HEX Bosnian.txt using Guid(574382f72491cd2478abbe29710e5b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517b1613eb16f63e7c8c1fe9d711986') in 0.046770 seconds 
+  Import took 0.050549 seconds .
 
