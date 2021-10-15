@@ -26,10 +26,14 @@ public class Quiz : MonoBehaviour
     [SerializeField] Image timerImage;
     Timer timer;
 
+    [Header("Scoring:")]
+    [SerializeField] private TextMeshProUGUI scoreText;
+    private ScoreKeeper scorekeeper;
+
     void Start()
     {
         timer = FindObjectOfType<Timer>();
-
+        scorekeeper = FindObjectOfType<ScoreKeeper>();
     }
 
     private void Update()
@@ -64,6 +68,7 @@ public class Quiz : MonoBehaviour
         DispalyAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
+        scoreText.text = "Score : " + scorekeeper.CalculateScore() + "%";
 
     }
 
@@ -73,6 +78,8 @@ public class Quiz : MonoBehaviour
         {
             questionText.text = "Tačno!";
             answerButtons[index].GetComponent<Image>().sprite = correcttAnswerSprite;
+
+            scorekeeper.SetIncrementCorrectAnswers();
         }
         else
         {
@@ -89,6 +96,7 @@ public class Quiz : MonoBehaviour
             SetDefaultButtonSprites();
             GetRandomQuestion();
             DisplayQuestion();
+            scorekeeper.SetIncrementquestionsSeen();
         }
         
     }
