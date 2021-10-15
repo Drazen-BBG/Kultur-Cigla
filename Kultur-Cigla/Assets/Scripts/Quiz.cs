@@ -76,7 +76,7 @@ public class Quiz : MonoBehaviour
         DispalyAnswer(index);
         SetButtonState(false);
         timer.CancelTimer();
-        scoreText.text = "Score : " + scorekeeper.CalculateScore() + "%";
+        scoreText.text = "Rezultat : " + scorekeeper.CalculateScore() + "%";
         if (progressBar.value == progressBar.maxValue)
         {
             isComplete = true;
