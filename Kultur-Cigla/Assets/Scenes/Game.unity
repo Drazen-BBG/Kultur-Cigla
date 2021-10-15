@@ -310,7 +310,7 @@ PrefabInstance:
     - target: {fileID: 6382759200202607403, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2074980672}
+      objectReference: {fileID: 0}
     - target: {fileID: 6382759200202607403, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -327,6 +327,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7542505133204765910, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2efcd1f66b6a92488e9505c88b73462, type: 3}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -672,7 +676,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &248387689
 GameObject:
@@ -1242,7 +1246,7 @@ PrefabInstance:
     - target: {fileID: 6382759200202607403, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2074980672}
+      objectReference: {fileID: 0}
     - target: {fileID: 6382759200202607403, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1259,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7542505133204765910, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c1a77e15213d4e242a0fb7f472ddbb14, type: 3}
     - target: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1345,11 +1353,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
---- !u!1 &692972176 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 240728839167637445, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
-  m_PrefabInstance: {fileID: 692972175}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &692972177 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8018003609543763609, guid: a9f751cb565f4fc4097ea20ab653653b, type: 3}
@@ -1401,7 +1404,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944272322
 GameObject:
@@ -2769,27 +2772,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2074980671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fa10bd964029314996c500fbd6b73db, type: 3}
+  m_Script: {fileID: 11500000, guid: b6c24efdf5b61324aaeb7d098bd76929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionText: {fileID: 269045683}
-  questions:
-  - {fileID: 11400000, guid: f5c4754a3be9aa84284184601cdaa02d, type: 2}
-  - {fileID: 11400000, guid: e0350d476bfa9d54e90d8242c989ca6c, type: 2}
-  - {fileID: 11400000, guid: 9afbc5a83163ff941b460fead1e7bba8, type: 2}
-  - {fileID: 11400000, guid: d5922c46bf1be5a45bf5fac2335a3120, type: 2}
-  - {fileID: 11400000, guid: 92b466d2896a2b84aa65f5a36409d0f5, type: 2}
-  answerButtons:
-  - {fileID: 692972176}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  defaultAnswerSprite: {fileID: 21300000, guid: c2efcd1f66b6a92488e9505c88b73462, type: 3}
-  correcttAnswerSprite: {fileID: 21300000, guid: c1a77e15213d4e242a0fb7f472ddbb14, type: 3}
-  timerImage: {fileID: 0}
-  scoreText: {fileID: 0}
-  progressBar: {fileID: 0}
-  isComplete: 0
+  winText: {fileID: 0}
 --- !u!114 &2074980673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2865,7 +2851,7 @@ RectTransform:
   - {fileID: 269045685}
   - {fileID: 1471443437}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
