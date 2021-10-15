@@ -10,15 +10,15 @@ public class Timer : MonoBehaviour
     public bool loadNextQuestion;
     public float fillFraction;
 
-    private bool isAnsweringQuestion;
+    public bool isAnsweringQuestion;
     private float timerValue;
 
     void Update()
     {
-        
+        UpdateTimer();
     }
 
-    private void UpdateTimer()
+    public void UpdateTimer()
     {
         timerValue -= Time.deltaTime;
         if (isAnsweringQuestion)

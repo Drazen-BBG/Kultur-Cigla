@@ -7,17 +7,44 @@ using System;
 
 public class Quiz : MonoBehaviour
 {
+    [Header("Questions:")]
     [SerializeField] private TextMeshProUGUI questionText;
     [SerializeField] private QuestionsSO question;
+
+    [Header("Answers:")]
     [SerializeField] private GameObject[] answerButtons;
-    int correctAnswerIndex;
+    private int correctAnswerIndex;
+    private bool hasAnsweredEarly;
+
+    [Header("Button Colors:")]
     [SerializeField] private Sprite defaultAnswerSprite;
     [SerializeField] private Sprite correcttAnswerSprite;
 
+    [Header("Timer:")]
+    [SerializeField] Image timerImage;
+    Timer timer;
+
     void Start()
     {
+        timer = FindObjectOfType<Timer>();
         DisplayQuestion();
         //GetNextQuestion();
+    }
+
+    private void Update()
+    {
+        timerImage.fillAmount = timer.fillFraction;
+        if (timer.loadNextQuestion)
+        {
+            hasAnsweredEarly = false;
+            GetNextQuestion();
+            timer.loadNextQuestion = false;
+        }
+        else if (!hasAnsweredEarly && !timer.isAnsweringQuestion)
+        {
+            DispalyAnswer(-1);
+            SetButtonState(false);
+        }
     }
 
     private void DisplayQuestion()
@@ -32,6 +59,15 @@ public class Quiz : MonoBehaviour
 
     public void OnAnswerSelected(int index)
     {
+        hasAnsweredEarly = true;
+        DispalyAnswer(index);
+        SetButtonState(false);
+        timer.CancelTimer();
+
+    }
+
+    private void DispalyAnswer(int index)
+    {
         if (index == question.GetCorrectAnswerIndex())
         {
             questionText.text = "Tačno!";
@@ -42,8 +78,6 @@ public class Quiz : MonoBehaviour
             questionText.text = "Žao mi je, tačan odgovor je: \n" + question.GetAnswer(question.GetCorrectAnswerIndex());
             answerButtons[question.GetCorrectAnswerIndex()].GetComponent<Image>().sprite = correcttAnswerSprite;
         }
-
-        SetButtonState(false);
     }
 
     private void GetNextQuestion()

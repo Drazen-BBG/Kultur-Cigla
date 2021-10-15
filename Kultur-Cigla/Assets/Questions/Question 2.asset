@@ -14,6 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Koliko samoreferencijalnih kamena napravio Alfred Hitchcock u svojim
     filmovima iz 1927-1976. - 33, 35 ili 37?
+  answers:
+  - Ovo je neki odgovor
+  - Baba Marta
+  - Kanjon Ugra
+  - Brazil
+  correctAnswerIndex: 2
+  general: 0
   sport: 0
   history: 0
   geography: 0

@@ -15,6 +15,13 @@ MonoBehaviour:
   question: "Koji su film iz 1982. godine filmski fanovi odli\u010Dno prihvatili
     zbog prikazivanja ljubavi mladog dje\u010Daka iz predgra\u0111a i izgubljenog,
     dobro\u0107udnog i rodnog posjetitelja s drugog planeta?\n"
+  answers:
+  - Hamburger
+  - Pljeskavica
+  - Mljevenici
+  - Masinovodja
+  correctAnswerIndex: 3
+  general: 0
   sport: 0
   history: 0
   geography: 0
