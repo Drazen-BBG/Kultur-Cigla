@@ -16,10 +16,10 @@ MonoBehaviour:
     zbog prikazivanja ljubavi mladog dje\u010Daka iz predgra\u0111a i izgubljenog,
     dobro\u0107udnog i rodnog posjetitelja s drugog planeta?\n"
   answers:
-  - Hamburger
-  - Pljeskavica
-  - Mljevenici
-  - Masinovodja
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
+  - "Ta\u010Dan Odgovor"
   correctAnswerIndex: 3
   general: 0
   sport: 0

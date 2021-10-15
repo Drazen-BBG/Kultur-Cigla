@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: Tko je glumio Juno MacGuff nasuprot Michaelu Ceri u filmu iz 2007. Juno?
   answers:
-  - Pero
-  - Simo
-  - Jugoslavija
-  - USA
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
+  - "Ta\u010Dan Odgovor"
+  - "Neta\u010Dno"
   correctAnswerIndex: 2
   general: 0
   sport: 0

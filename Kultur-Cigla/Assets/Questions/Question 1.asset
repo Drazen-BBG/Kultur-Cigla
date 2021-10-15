@@ -15,10 +15,10 @@ MonoBehaviour:
   question: Koji je glumac osvojio najboljeg glumca Oscara za filmove Philadelphia
     (1993) i Forrest Gump (1994)?
   answers:
-  - "Pero Peri\u0107"
-  - Tom Hanks
-  - "Milutin Mili\u0107"
-  - "Meho Muhi\u0107"
+  - "Neta\u010Dno"
+  - "Ta\u010Dan Odgovor"
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
   correctAnswerIndex: 1
   general: 0
   sport: 0

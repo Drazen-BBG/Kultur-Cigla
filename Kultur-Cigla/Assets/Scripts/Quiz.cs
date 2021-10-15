@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using System;
+
 
 public class Quiz : MonoBehaviour
 {
     [Header("Questions:")]
     [SerializeField] private TextMeshProUGUI questionText;
-    [SerializeField] private QuestionsSO question;
+    private QuestionsSO currentQuestion;
+
+    [SerializeField] List<QuestionsSO> questions = new List<QuestionsSO>();
 
     [Header("Answers:")]
     [SerializeField] private GameObject[] answerButtons;
@@ -49,11 +51,11 @@ public class Quiz : MonoBehaviour
 
     private void DisplayQuestion()
     {
-        questionText.text = question.GetQuestion();
+        questionText.text = currentQuestion.GetQuestion();
 
         for (int i = 0; i < answerButtons.Length; i++)
         {
-            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = question.GetAnswer(i);
+            answerButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.GetAnswer(i);
         }
     }
 
@@ -68,23 +70,37 @@ public class Quiz : MonoBehaviour
 
     private void DispalyAnswer(int index)
     {
-        if (index == question.GetCorrectAnswerIndex())
+        if (index == currentQuestion.GetCorrectAnswerIndex())
         {
             questionText.text = "Tačno!";
             answerButtons[index].GetComponent<Image>().sprite = correcttAnswerSprite;
         }
         else
         {
-            questionText.text = "Žao mi je, tačan odgovor je: \n" + question.GetAnswer(question.GetCorrectAnswerIndex());
-            answerButtons[question.GetCorrectAnswerIndex()].GetComponent<Image>().sprite = correcttAnswerSprite;
+            questionText.text = "Žao mi je, tačan odgovor je: \n" + currentQuestion.GetAnswer(currentQuestion.GetCorrectAnswerIndex());
+            answerButtons[currentQuestion.GetCorrectAnswerIndex()].GetComponent<Image>().sprite = correcttAnswerSprite;
         }
     }
 
     private void GetNextQuestion()
     {
+
         SetButtonState(true);
         SetDefaultButtonSprites();
+        GetRandomQuestion();
         DisplayQuestion();
+    }
+
+    void GetRandomQuestion()
+    {
+        int index = Random.Range(0, questions.Count);
+        currentQuestion = questions[index];
+
+        if (questions.Contains(currentQuestion))
+        {
+            questions.Remove(currentQuestion);
+        }
+
     }
 
     private void SetButtonState(bool state)

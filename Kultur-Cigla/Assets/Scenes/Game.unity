@@ -812,9 +812,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToCompleteQuestion: 30
-  timeToShowCorrectAnswer: 10
+  timeToShowCorrectAnswer: 5
   loadNextQuestion: 0
   fillFraction: 1
+  isAnsweringQuestion: 0
 --- !u!4 &784718618
 Transform:
   m_ObjectHideFlags: 0
@@ -1250,7 +1251,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 79728466}
-  question: {fileID: 11400000, guid: e0350d476bfa9d54e90d8242c989ca6c, type: 2}
+  questions:
+  - {fileID: 11400000, guid: f5c4754a3be9aa84284184601cdaa02d, type: 2}
+  - {fileID: 11400000, guid: e0350d476bfa9d54e90d8242c989ca6c, type: 2}
+  - {fileID: 11400000, guid: 9afbc5a83163ff941b460fead1e7bba8, type: 2}
+  - {fileID: 11400000, guid: d5922c46bf1be5a45bf5fac2335a3120, type: 2}
+  - {fileID: 11400000, guid: 92b466d2896a2b84aa65f5a36409d0f5, type: 2}
   answerButtons:
   - {fileID: 421574633}
   - {fileID: 1787353065}

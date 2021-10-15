@@ -15,10 +15,10 @@ MonoBehaviour:
   question: "Koja je novozelandska \u017Eenska redateljica re\u017Eirala ove filmove
     - In the Cut (2003), The Water Diary (2006) i Bright Star (2009)?"
   answers:
-  - Home
-  - School
-  - Picture
-  - Mars
+  - "Ta\u010Dan Odgovor"
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
+  - "Neta\u010Dno"
   correctAnswerIndex: 0
   general: 0
   sport: 0
